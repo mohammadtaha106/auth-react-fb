@@ -28,7 +28,7 @@ export default function AvatarDrop({ img , name, email ,onclick }) {
             name={name}
           />
         </DropdownTrigger>
-        <DropdownMenu aria-label="User Actions" variant="flat">
+        <DropdownMenu aria-label="User Actions" variant="flat" className="bg-white text-black rounded">
           <DropdownItem key="profile" className="h-14 gap-2">
             <p className="font-bold">Signed in as</p>
             <p className="font-bold">{email}</p>
